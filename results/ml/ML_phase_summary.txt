@@ -1,0 +1,27 @@
+
+BanglaBlend Baseline ML Model Comparison
+
+Dataset:
+7053 cleaned Bengali text samples
+
+Evaluation:
+3-Fold Stratified Cross Validation
+
+Models:
+1. Logistic Regression
+2. Naive Bayes
+3. SVM
+4. Random Forest
+
+Best Accuracy Model:
+Naive Bayes
+
+Best F1 Model:
+Naive Bayes
+
+Comparison table:
+              Model  Accuracy  Precision  Recall    F1  Cohen_Kappa    MCC
+Logistic Regression     82.53      84.50   78.80 81.54       0.6500 0.6516
+        Naive Bayes     82.82      82.27   82.74 82.50       0.6562 0.6562
+                SVM     82.46      83.43   80.10 81.72       0.6488 0.6494
+      Random Forest     80.43      81.40   77.85 79.57       0.6082 0.6089

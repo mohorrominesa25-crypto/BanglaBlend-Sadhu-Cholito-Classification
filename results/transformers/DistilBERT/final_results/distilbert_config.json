@@ -1,0 +1,30 @@
+{
+    "model_name": "distilbert-base-multilingual-cased",
+    "model_key": "DistilBERT",
+    "dataset": "BanglaBlend_processed.csv",
+    "dataset_size": 7053,
+    "num_labels": 2,
+    "label_mapping": {
+        "Cholito(চলিত)": 0,
+        "Sadhu(সাধু)": 1
+    },
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "epochs": 6,
+    "n_splits": 3,
+    "weight_decay": 0.01,
+    "seed": 42,
+    "device": "cuda",
+    "cross_validation": "Stratified 3-Fold",
+    "metrics": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1",
+        "Cohen Kappa",
+        "MCC"
+    ],
+    "model_weights_saved_to_drive": false,
+    "checkpoints_saved_to_drive": false
+}

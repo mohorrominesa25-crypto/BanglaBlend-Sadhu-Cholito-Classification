@@ -1,0 +1,2 @@
+XLM-R Fold 1 completed successfully.
+Best Epoch: 6
