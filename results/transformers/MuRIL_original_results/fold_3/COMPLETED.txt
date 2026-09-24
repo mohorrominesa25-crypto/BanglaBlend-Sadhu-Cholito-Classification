@@ -1,0 +1,8 @@
+MuRIL Fold 3 completed successfully.
+Best Epoch: 5
+Accuracy: 0.963845
+Precision: 0.974199
+Recall: 0.951347
+F1: 0.962637
+Kappa: 0.927624
+MCC: 0.927869

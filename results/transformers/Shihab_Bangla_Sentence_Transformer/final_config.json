@@ -1,0 +1,11 @@
+{
+    "model_checkpoint": "shihab17/bangla-sentence-transformer",
+    "dataset": "/content/drive/MyDrive/BanglaBlend_Project/data/processed/BanglaBlend_processed.csv",
+    "n_splits": 3,
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "epochs": 6,
+    "weight_decay": 0.01,
+    "random_seed": 42
+}

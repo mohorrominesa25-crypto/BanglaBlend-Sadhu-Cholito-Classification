@@ -1,0 +1,8 @@
+MuRIL Fold 1 completed successfully.
+Best Epoch: 6
+Accuracy: 0.956614
+Precision: 0.968722
+Recall: 0.941790
+F1: 0.955066
+Kappa: 0.913141
+MCC: 0.913481

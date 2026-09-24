@@ -1,0 +1,28 @@
+{
+    "model_name": "google/muril-base-cased",
+    "model_key": "MuRIL",
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "epochs": 6,
+    "n_splits": 3,
+    "seed": 42,
+    "weight_decay": 0.01,
+    "label_mapping": {
+        "Cholito(চলিত)": 0,
+        "Sadhu(সাধু)": 1
+    },
+    "pooling": "attention_mask_mean_pooling",
+    "classifier": {
+        "input_features": 768,
+        "output_classes": 2
+    },
+    "dropout": 0.1,
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "5.16.1",
+    "save_model_weights": false,
+    "save_checkpoints": false,
+    "save_epoch_results": true
+}

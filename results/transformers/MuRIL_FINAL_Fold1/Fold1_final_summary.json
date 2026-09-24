@@ -1,0 +1,28 @@
+{
+    "model": "MuRIL",
+    "model_name": "google/muril-base-cased",
+    "fold": 1,
+    "best_epoch": 5,
+    "best_f1": 0.9588550983899821,
+    "best_accuracy": 0.9608677158655891,
+    "best_precision": 0.9880184331797235,
+    "best_recall": 0.9313640312771503,
+    "best_kappa": 0.9216096458132639,
+    "best_mcc": 0.9230704301063193,
+    "total_training_time_minutes": 15.855239574114481,
+    "configuration": {
+        "seed": 42,
+        "batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 2e-05,
+        "epochs": 6,
+        "weight_decay": 0.01,
+        "dropout": 0.1,
+        "n_splits": 3
+    },
+    "saving": {
+        "all_epoch_checkpoints": true,
+        "optimizer_state": false,
+        "best_model": true
+    }
+}
